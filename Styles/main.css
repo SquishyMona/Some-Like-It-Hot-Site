@@ -11,8 +11,7 @@
 nav {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
-    opacity: 0.6;
+    background-color: rgb(120, 89, 102);
     text-align: right;
     position: sticky;
     font-family: Quicksand;
@@ -20,9 +19,145 @@ nav {
 
 nav p {
     display: block;
-    color: white;
+    color: rgb(243, 212, 224);
     float: left;
     padding: 14px;
+}
+
+nav img {
+    width: 48px;
+    float: left;
+    opacity: initial;
+}
+
+@media screen and (max-width: 1095px) {
+    nav a {
+        display: none;
+    }
+
+    nav a.icon {
+      float: left;
+      display: block;
+      color: white;
+      height: 48px;
+      width: 48px;
+    }
+
+    nav a.icon i.fa.fa-bars {
+        position: relative;
+        left: -16px;
+        bottom: -16px;
+    }
+
+    nav li:hover {
+        background-color: rgb(120, 89, 102);
+    }
+
+    nav.responsive ul a {
+        display: block;
+        text-align: left;
+    }
+
+    nav.responsive li {
+        display: block;
+        text-align: left;
+    }
+
+    nav.responsive li:hover {
+        background-color: rgb(84, 63, 71);;
+    }
+
+    nav.responsive ul {
+        float: left;
+        position: relative;
+        left: -243px;
+        top: 48px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body .slider {
+        width: 100vw;
+        height: 69vw;
+    }
+
+    body .slide {
+        width: 100vw;
+        height: 69vw;
+    }
+
+    body .image-container {
+        width: 900vw;
+        background-color: pink;
+        height: 69vw;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+    }
+    
+
+    body #slide-1:target ~ .image-container {
+        left: 0px;
+    }
+    
+    body #slide-2:target ~ .image-container {
+        left: -100vw;
+    }
+    
+    body #slide-3:target ~ .image-container {
+        left: -200vw;
+    }
+    
+    body #slide-4:target ~ .image-container {
+        left: -300vw;
+    }
+    
+    body #slide-5:target ~ .image-container {
+        left: -400vw;
+    }
+    
+    body #slide-6:target ~ .image-container {
+        left: -500vw;
+    }
+    
+    body #slide-7:target ~ .image-container {
+        left: -600vw;
+    }
+    
+    body #slide-8:target ~ .image-container {
+        left: -700vw;
+    }
+    
+    body #slide-9:target ~ .image-container {
+        left: -800vw;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    body .buttons {
+        width: 85vw;
+        height: 7vw;
+    }
+
+    body .buttons a {
+        font-size: 6vw;
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width: 392px) {
+    nav.responsive ul {
+        float: left;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
 }
 
 footer {
@@ -47,7 +182,6 @@ footer a {
 body {
     background-color: rgb(237, 143, 180);
     margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -65,16 +199,19 @@ li {
     -webkit-transition: 0.3s;
 }
 
-
 li a {
-    color: white;
+    color: rgb(243, 212, 224);
     text-decoration: none;
 }
 
 li:hover {
-    background-color: #111;
+    background-color: rgb(84, 63, 71);
     transition: 0.3s;
     -webkit-transition: 0.3s;
+}
+
+.icon {
+    display: none;
 }
 
 .header {
@@ -83,7 +220,7 @@ li:hover {
     text-align: center;
     color: white;
     font-family: OleoScript;
-    text-shadow: 2px 2px 4px #111;
+    text-shadow: 1px 1px 2px #111;
     background-image: url(../Images/header.jpg);
     background-size: cover;
     background-position: center;

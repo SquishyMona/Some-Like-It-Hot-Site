@@ -24,3 +24,9 @@
     font-family: Quicksand;
     font-size: 150%;
 }
+
+@media screen and (max-width: 1280px) {
+    body .aboutText {
+        font-size: 2vw;
+    }
+}
