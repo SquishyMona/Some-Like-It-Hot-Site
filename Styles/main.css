@@ -1,0 +1,154 @@
+@font-face {
+    font-family: OleoScript;
+    src: url(../Fonts/Oleo_Script/OleoScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.8;
+    text-align: right;
+    position: sticky;
+    font-family: Quicksand;
+}
+
+nav p {
+    display: block;
+    color: white;
+    float: left;
+    padding: 14px;
+}
+
+body {
+    background-color: rgb(242, 191, 205);
+
+}
+
+ul {
+    display: block;
+    margin: 0;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 14px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: OleoScript;
+    text-shadow: 2px 2px 4px #111;
+    background-image: url(../Images/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider {
+    width: 800px;
+    height: 550px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 7200px;
+    background-color: pink;
+    height: 550px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 800px;
+    height: 550px;
+}
+
+#slide-1:target ~ .image-container {
+    left: 0px;
+}
+
+#slide-2:target ~ .image-container {
+    left: -800px;
+}
+
+#slide-3:target ~ .image-container {
+    left: -1600px;
+}
+
+#slide-4:target ~ .image-container {
+    left: -2400px;
+}
+
+#slide-5:target ~ .image-container {
+    left: -3200px;
+}
+
+#slide-6:target ~ .image-container {
+    left: -4000px;
+}
+
+#slide-7:target ~ .image-container {
+    left: -4800px;
+}
+
+#slide-8:target ~ .image-container {
+    left: -5600px;
+}
+
+#slide-9:target ~ .image-container {
+    left: -6400px;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    background-color: #fab8f8;
+    margin-top: 10px;
+}
+
+.buttons a {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: rgb(255, 78, 243);
+    margin: 10px;
+    text-decoration: none;
+  }
