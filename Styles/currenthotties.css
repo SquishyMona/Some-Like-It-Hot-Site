@@ -10,18 +10,19 @@
     width: 100vw;
     margin: auto;
     margin-top: 0;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
 }
 
 .hottie img {
     width: 50%;
     float: left;
+    margin: auto;
     
 }
 
 .details {
-    width: 50%;
+    width: 100%;
     margin: auto;
     font-family: Quicksand;
     font-size: 5vw;
@@ -53,16 +54,13 @@
 @media screen and (min-width: 600px) {
     .hottie {
         width: 50%;
-        flex-direction: column;
     }
     .hottie img {
-        margin: auto;
         width: 75%;
     }
 
     .details {
         font-size: 3vw;
-        width: 100%;
     }
 
     .details h2 {
