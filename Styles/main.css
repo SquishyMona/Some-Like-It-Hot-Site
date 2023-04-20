@@ -17,11 +17,12 @@ nav {
     font-family: Quicksand;
 }
 
-nav p {
+nav .slihText {
     display: block;
     color: rgb(243, 212, 224);
     float: left;
     padding: 14px;
+    text-decoration: none;
 }
 
 nav img {
