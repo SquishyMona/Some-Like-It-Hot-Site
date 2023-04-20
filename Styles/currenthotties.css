@@ -43,14 +43,6 @@
     font-weight: bold;
 }
 
-.category
-{
-    color: rgb(232, 56, 43);
-    font-weight: bold;
-    text-align: center;
-    font-family: OleoScript;
-}
-
 @media screen and (min-width: 600px) {
     .hottie {
         width: 50%;
