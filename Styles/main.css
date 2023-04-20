@@ -151,7 +151,7 @@ nav img {
     }
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 375px) {
     nav.responsive ul {
         float: left;
         position: relative;
