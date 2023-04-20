@@ -220,11 +220,16 @@ li:hover {
     padding: 20px;
     text-align: center;
     color: white;
-    font-family: OleoScript;
+    font-family: Quicksand;
     text-shadow: 1px 1px 2px #111;
     background-image: url(../Images/header.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.header h1 {
+    font-family: OleoScript;
+    font-size: 40px;
 }
 
 .slider {

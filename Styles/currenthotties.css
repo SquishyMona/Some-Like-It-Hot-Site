@@ -1,0 +1,105 @@
+.hottie-container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.hottie {
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    margin-top: 0;
+    flex-direction: row;
+    text-align: center;
+}
+
+.hottie img {
+    width: 50%;
+    float: left;
+    
+}
+
+.details {
+    width: 50%;
+    margin: auto;
+    font-family: Quicksand;
+    font-size: 5vw;
+}
+
+.details h2 {
+    font-size: 7vw;
+    font-family: OleoScript;
+}
+
+.details h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.eboard {
+    color: rgb(232, 56, 43);
+    font-weight: bold;
+}
+
+.category
+{
+    color: rgb(232, 56, 43);
+    font-weight: bold;
+    text-align: center;
+    font-family: OleoScript;
+}
+
+@media screen and (min-width: 600px) {
+    .hottie {
+        width: 50%;
+        flex-direction: column;
+    }
+    .hottie img {
+        margin: auto;
+        width: 75%;
+    }
+
+    .details {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    .details h2 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hottie {
+        width: 33%;
+    }
+    .hottie img {
+        width: 50%;
+    }
+
+    .details {
+        font-size: 2vw;
+    }
+
+    .details h2 {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .hottie {
+        width: 25%;
+    }
+    .hottie img {
+        width: 70%;
+    }
+
+    .details {
+        font-size: 1.5vw;
+    }
+
+    .details h2 {
+        font-size: 2vw;
+    }
+}
