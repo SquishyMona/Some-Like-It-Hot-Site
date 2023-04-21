@@ -13,6 +13,9 @@
     text-align: center;
     color: white;
     font-family: Quicksand;
+    max-width: 100%;
+    line-break: auto;
+    padding: 5%;
 }
 
 @media screen and (min-width: 600px) {
