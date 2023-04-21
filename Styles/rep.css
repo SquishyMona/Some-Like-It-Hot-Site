@@ -1,85 +1,37 @@
 .currentrep {
     display: flex;
-    color: white;
-    text-align: center;
     flex-wrap: wrap;
 }
 
 .song {
-    width: 100vw;
-    font-size: 5vw;
-    font-family: Quicksand;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-image: url("../Images/SLIHVinylRound.png");
-    background-size: 50vw;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 90vw;
+    padding: 5vw;
+    border-radius: 10%;
 }
 
-.song h1 {
-    font-size: 95%;
-    margin: auto;
-}
-
-.details {
-    width: 75%;
-    font-size: 75%;
-    font-family: Quicksand;
+.pastrep {
     text-align: center;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    position: relative;
-}
-
-.multisolo {
-    font-size: 70%;
+    color: white;
+    font-family: Quicksand;
 }
 
 @media screen and (min-width: 600px) {
     .song {
-        width: 50%;
-        background-size: 33vw;
-    }
-
-    .song h1 {
-        font-size: 95%;
-    }
-
-    .song .details {
-        font-size: 50%;
+        width: 40vw;
+        border-radius: 15%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .song {
-        width: 33.33%;
-        background-size: 24vw;
-    }
-
-    .song h1 {
-        font-size: 95%;
-    }
-
-    .song .details {
-        font-size: 35%;
+        width: 23.33vw;
+        border-radius: 20%;
     }
 }
     
 @media screen and (min-width: 1366px) {
     .song {
-        width: 25%;
-        background-size: 19vw;
-    }
-
-    .song h1 {
-        font-size: 95%;
-    }
-
-    .song .details {
-        font-size: 25%;
+        width: 15vw;
+        border-radius: 30%;
     }
 }
