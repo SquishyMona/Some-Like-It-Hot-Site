@@ -15,7 +15,6 @@
     font-family: Quicksand;
     max-width: 100%;
     line-break: auto;
-    padding: 5%;
 }
 
 @media screen and (min-width: 600px) {
@@ -34,7 +33,8 @@
     
 @media screen and (min-width: 1366px) {
     .song {
-        width: 15vw;
-        border-radius: 30%;
+        width: 19vw;
+        padding: 3vw;
+        border-radius: 20%;
     }
 }
