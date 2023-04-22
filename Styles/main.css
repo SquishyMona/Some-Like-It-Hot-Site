@@ -89,7 +89,7 @@ nav img {
     }
 
     body .image-container {
-        width: 900vw;
+        width: 1200vw;
         background-color: pink;
         height: 69vw;
         clear: both;
@@ -136,18 +136,28 @@ nav img {
     body #slide-9:target ~ .image-container {
         left: -800vw;
     }
+    body #slide-10:target ~ .image-container {
+        left: -900vw;
+    }
+    body #slide-11:target ~ .image-container {
+        left: -1000vw;
+    }
+    body #slide-12:target ~ .image-container {
+        left: -1100vw;
+    }
 }
 
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 600px) {
     body .buttons {
-        width: 85vw;
-        height: 7vw;
+        width: 95vw;
+        height: 7%;
     }
 
     body .buttons a {
-        font-size: 6vw;
+        font-size: 3vw;
+        margin-top: 10%;
         margin: 0;
-        
+        width: 7%;
     }
 }
 
