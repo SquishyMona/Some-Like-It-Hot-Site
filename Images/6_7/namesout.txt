@@ -1,0 +1,16 @@
+<img class="photo" src="Images/6_7/names.txt">
+
+<img class="photo" src="Images/6_7/6_7_1.jpg">
+
+<img class="photo" src="Images/6_7/6_7_2.jpg">
+
+<img class="photo" src="Images/6_7/6_7_3.jpg">
+
+<img class="photo" src="Images/6_7/6_7_4.jpg">
+
+<img class="photo" src="Images/6_7/6_7_5.jpg">
+
+<img class="photo" src="Images/6_7/6_7_6.jpg">
+
+<img class="photo" src="Images/6_7/">
+

@@ -1,0 +1,55 @@
+.media-container {
+    column-count: 1;
+    width: 100vw;
+    color: white;
+}
+
+#video {
+    margin: auto;
+    width: 95vw;
+    height: 53vw;
+}
+
+.photo {
+    width: 90%;
+    margin: 5%;
+}
+
+h2 a {
+    color: rgb(232, 56, 43);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    #video {
+        width: 70vw;
+        height: 39vw;
+    }
+
+    .media-container {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #video {
+        width: 50vw;
+        height: 28vw;
+    }
+
+    .media-container {
+        column-count: 3;
+    }
+    
+}
+
+@media screen and (min-width: 1366px) {
+    #video {
+        width: 40vw;
+        height: 22.5vw;
+    }
+
+    .media-container {
+        column-count: 4;
+    }
+}
