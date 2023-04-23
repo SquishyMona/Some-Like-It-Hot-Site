@@ -136,12 +136,15 @@ nav img {
     body #slide-9:target ~ .image-container {
         left: -800vw;
     }
+
     body #slide-10:target ~ .image-container {
         left: -900vw;
     }
+
     body #slide-11:target ~ .image-container {
         left: -1000vw;
     }
+
     body #slide-12:target ~ .image-container {
         left: -1100vw;
     }
@@ -255,7 +258,7 @@ li:hover {
 }
 
 .image-container {
-    width: 7200px;
+    width: 9600px;
     background-color: pink;
     height: 550px;
     clear: both;
