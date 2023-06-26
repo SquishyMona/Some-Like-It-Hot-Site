@@ -1,6 +1,5 @@
 .hottie-container {
     display: flex;
-    width: 100vw;
     flex-wrap: wrap;
     color: white;
 }
