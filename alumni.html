@@ -7,9 +7,25 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="Scripts/navbar.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="module">
+            import { getStorage, ref, getDownloadURL } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-storage.js'
+
+            const storage = getStorage();
+
+            function getPhoto(path, id)
+            {
+                getDownloadURL(ref(storage, path)).then((url) => {
+                    var elem = document.getElementById(id);
+                    elem.setAttribute('src', url);
+                }).catch((error) => {
+                    console.log(error);
+                });
+            }
+        </script>
     </head>
 
-    <body>
+    <body onload="getPhoto('Images/Alumni/lydiah.jpg', 'lydiah')">
         <nav id="navBar" style="max-height: 48px;"" class="nav">
             <a class="icon" href="javascript:void(0)" onclick="hamburgerClick()">
                 <i class="fa fa-bars"></i>
@@ -34,7 +50,7 @@
         </div>
         <div class="hottie-container" style="margin-top: 5%;">
             <div class="hottie">
-                <img src="Alumni/lydiah.jpg">
+                <img id="lydiah" src="Alumni/lydiah.jpg">
                 <div class="details">
                     <h2>Lydia Pridmore</h2>
                     <p></p>Fall '21 - Spring '22</p>
