@@ -5,7 +5,7 @@
 
 .song {
     width: 90vw;
-    padding: 5vw;
+    padding: 3vw;
     border-radius: 10%;
 }
 
@@ -19,21 +19,21 @@
 
 @media screen and (min-width: 600px) {
     .song {
-        width: 40vw;
+        width: 42.5vw;
         border-radius: 15%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .song {
-        width: 23.33vw;
+        width: 26.7vw;
         border-radius: 20%;
     }
 }
     
 @media screen and (min-width: 1366px) {
     .song {
-        width: 19vw;
+        width: 18.5vw;
         padding: 3vw;
         border-radius: 20%;
     }
