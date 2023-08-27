@@ -15,9 +15,21 @@
     margin: 5%;
 }
 
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 h2 a {
-    color: rgb(232, 56, 43);
+    color: white;
+    padding: 5px;
+    background-color: rgb(232, 56, 43);
+    border-radius:15px;
+    background-size: cover;
     text-decoration: none;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow-wrap: auto;
 }
 
 @media screen and (min-width: 600px) {
