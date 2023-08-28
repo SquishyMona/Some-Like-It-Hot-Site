@@ -314,6 +314,18 @@ li:hover {
     left: -6400px;
 }
 
+#slide-10:target ~ .image-container {
+    left: -7200px;
+}
+
+#slide-11:target ~ .image-container {
+    left: -8000px;
+}
+
+#slide-12:target ~ .image-container {
+    left: -8800px;
+}
+
 .buttons {
     position: relative;
     text-align: center;
@@ -345,7 +357,7 @@ hr.rounded {
 
 .category
 {
-    color: rgb(232, 56, 43);
+    color: rgb(255, 76, 63);
     font-weight: bold;
     text-align: center;
     font-family: OleoScript;
