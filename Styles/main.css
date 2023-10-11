@@ -158,8 +158,8 @@ nav img {
 
     body .buttons a {
         font-size: 3vw;
-        margin-top: 10%;
         margin: 0;
+        margin-top: 2%;
         width: 7%;
     }
 }
@@ -253,8 +253,10 @@ li:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
 }
 
 .image-container {
@@ -334,6 +336,7 @@ li:hover {
     width: max-content;
     align-self: center;
     border-radius: 25px;
+    box-shadow: 0px 0px 5px 2px rgb(255, 255, 255) inset;
 }
 
 .buttons a {
